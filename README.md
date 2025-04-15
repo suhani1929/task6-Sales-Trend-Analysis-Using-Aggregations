@@ -25,7 +25,7 @@ Language: MySQL
 Data Visualization & Export: CSV / PDF
 
 ## 📂 Files Included
-online_sales_trend_analysis.sql – SQL script with 3 queries:
+online_sales_trend_analysis.sql – SQL script with 4 queries:
 
 Full Year (2023)
 
@@ -41,3 +41,5 @@ Sales peaked in February 2023, likely due to seasonal demand.
 The first quarter showed strong performance in both revenue and order volume.
 
 July 2023 had moderate activity, indicating a possible off-season.
+
+Identified the top 3 months with highest revenue, providing key insights into peak sales periods for strategic planning.
