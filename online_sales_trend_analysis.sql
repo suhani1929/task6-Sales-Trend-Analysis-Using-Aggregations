@@ -30,3 +30,13 @@ FROM online_sales
 WHERE YEAR(order_date) = 2023 AND MONTH(order_date) = 7
 GROUP BY year, month
 ORDER BY year, month;
+
+-- Top 3 Months by Sales
+SELECT 
+  EXTRACT(YEAR FROM order_date) AS year,
+  EXTRACT(MONTH FROM order_date) AS month,
+  SUM(total_price) AS total_revenue
+FROM online_sales
+GROUP BY year, month
+ORDER BY total_revenue DESC
+LIMIT 3;
