@@ -5,17 +5,17 @@
 Analyze monthly revenue and order volume using SQL aggregation techniques based on different time filters such as full year, specific date ranges, and individual months.
 
 ## 📁 Dataset
-File Name: online_sales.csv
+- File Name: `online_sales.csv`
 
-Fields Used:
+- Fields Used:
 
-- order_id
+    - order_id
 
-- order_date
+    - order_date
 
-- total_price
+    - total_price
 
-- product_id
+    - product_id
 
 ## 🛠 Tools Used
 - SQL Environment: MySQL Workbench
